@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: 0.5em; 
+    text-align: center; 
+}
+
+#available-rooms {
+    margin-bottom: 20px;
+}
+
+#rooms-bar {
+    height: 20px;
+    background-color: lightgreen;
+    border-radius: 1%;
+    border: none;
+}
+
+.rooms-bar {
+    height: 20px; /* Adjusted height to match available rooms status bar */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.selected-room {
+    display: inline-block;
+    height: 100%;
+    background-color: red;
+    margin-right: 2px;
+    font-size: 0.8em;
+    line-height: 20px; 
+}
